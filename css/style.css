@@ -1,0 +1,92 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato",sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+.header {
+    height: 95vh;
+    
+    background-image: /*linear-gradient(to right bottom, #7ed56fcb,#28b485ce) */ url(../img/022.svg); 
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0,100% 0,100% 75%,0 100%);
+}
+
+/*
+
+#logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#logo path:nth-child(2) {
+    stroke-dasharray: 533.39;
+    stroke-dashoffset: 533.39;
+    animation: line-anim 2s ease forwards;
+}
+
+#logo path:nth-child(3) {
+    stroke-dasharray: 533.3993530273438;
+    stroke-dashoffset:533.3993530273438;
+}
+
+#logo path:nth-child(4) {
+    stroke-dasharray:568.07;
+    stroke-dashoffset:568.07;
+}
+
+#logo path:nth-child(5) {
+    stroke-dasharray: 605.86;
+    stroke-dashoffset:605.86;
+}
+
+#logo path:nth-child(6) {
+    stroke-dasharray: 605.8631;
+    stroke-dashoffset: 605.8631;
+}
+
+#logo path:nth-child(7) {
+    stroke-dasharray:605.8631591796875;
+    stroke-dashoffset:605.8631591796875;
+}
+
+#logo path:nth-child(8) {
+    stroke-dasharray:542.67;
+    stroke-dashoffset:542.67;
+}
+
+#logo path:nth-child(9) {
+    stroke-dasharray: 525.23;
+    stroke-dashoffset:525.23;
+}
+
+@keyframes line-anim{
+
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+/*Letter 2 is 533.3993530273438
+VM4795 app.js:3 Letter 3 is 231.75
+VM4795 app.js:3 Letter 4 is 568.0792236328125
+VM4795 app.js:3 Letter 5 is 605.8631591796875
+VM4795 app.js:3 Letter 6 is 525.2360229492188
+VM4795 app.js:3 Letter 7 is 563.7347412109375
+VM4795 app.js:3 Letter 8 is 542.6749267578125
+VM4795 app.js:3 Letter 9 is 525.2340087890625
+VM4795 app.js:3 Letter 10 is 533.3993530273438*/
